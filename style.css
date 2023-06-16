@@ -1,0 +1,41 @@
+ul {
+    list-style: none;
+}
+
+.gray-box {
+    background-color: dimgrey;
+    display:flex;
+    padding:50%;
+    width: 50%;
+    height: 50%;
+}
+
+.white-box {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border:red 1px solid;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    border:red 1px solid;
+    align-items: center;
+    text-align: center;
+}
+
+
+.text {
+    display: flex;
+    border:red 1px solid;
+}
+
+.mark {
+    background-color: cornflowerblue;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+}
